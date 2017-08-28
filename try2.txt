@@ -1,1 +1,5 @@
 Will this file be visible from branch? should not be, since it is beging made in master node AFTER the branch has been created. A branch created after this will be able to see this file too! 
+
+!! so this reasoning worked. This file is not visible in try_branch1. but is visible in try_branch2, since this branch was created after try2 was created in the master branch.
+
+This change must not be visible in master branch! :O
